@@ -28,14 +28,25 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "container_1_Main",
-      "elementLabel" : "Main",
+      "elementId" : "catalog_item_1",
+      "elementLabel" : "Catalog Item 1",
       "propertyValues" : {
-        "ariaRegionHeadingLevel" : {
+        "showRequestForHeader" : {
           "type" : "JSON_LITERAL",
-          "value" : "1"
+          "value" : true
         },
-        "ariaRegionName" : {
+        "propagateNotifications" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "sysId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "sysId" ],
+            "category" : "props"
+          }
+        },
+        "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
@@ -43,539 +54,96 @@
             "comment" : ""
           }
         },
-        "includeAriaHeading" : {
+        "headingOnlyVisibleToScreenReaders" : {
           "type" : "JSON_LITERAL",
           "value" : false
         },
-        "type" : {
+        "interceptNotifications" : {
           "type" : "JSON_LITERAL",
-          "value" : "section"
+          "value" : false
         },
-        "ariaRole" : {
+        "hideOptionsLabel" : {
           "type" : "JSON_LITERAL",
-          "value" : ""
+          "value" : "false"
+        },
+        "referrer" : {
+          "type" : "JSON_LITERAL",
+          "value" : "default"
+        },
+        "submitPosition" : {
+          "type" : "JSON_LITERAL",
+          "value" : "left"
+        },
+        "headerLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "engagementChannel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "default"
+        },
+        "requestedForId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "user", "sys_id" ],
+            "category" : "session"
+          }
+        },
+        "bare" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "scrollable" : {
+          "type" : "JSON_LITERAL",
+          "value" : "y"
         }
       },
-      "eventMappings" : [ ],
-      "slot" : null,
+      "eventMappings" : [ {
+        "eventMappingId" : "ckhaahnjleeaaaacchhddhhhiiaffggvoducc",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "16f9c0a549d1651092949769a2893173"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckhaahnjlffaaaacciiddhhhiikjcvgcpz",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : "",
       "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "id" : "afeef20635001010f877265d86f080df",
         "type" : "MACROPONENT"
       },
-      "overrides" : {
-        "composition" : [ {
-          "elementId" : "breadcrumbs_1",
-          "elementLabel" : "Breadcrumbs 1",
-          "propertyValues" : {
-            "overflow" : {
-              "type" : "JSON_LITERAL",
-              "value" : "collapse"
-            },
-            "delimiter" : {
-              "type" : "JSON_LITERAL",
-              "value" : "chevron"
-            },
-            "items" : {
-              "type" : "DATA_OUTPUT_BINDING",
-              "binding" : {
-                "address" : [ "breadcrumbs_broker_1", "output" ]
-              }
-            }
-          },
-          "eventMappings" : [ {
-            "eventMappingId" : "ckgjaaddddmeeaaaaaafddghhedccmlbbncm",
-            "isConfiguration" : false,
-            "offRowStorageId" : null,
-            "sourceEventApiName" : "sn_breadcrumbs.NOW_BREADCRUMBS#ITEM_CLICKED",
-            "sourceEventCorrelationId" : null,
-            "sourceEventDefinition" : {
-              "apiName" : "sn_breadcrumbs.NOW_BREADCRUMBS#ITEM_CLICKED",
-              "id" : null,
-              "type" : "UXEVENT"
-            },
-            "sourceEventSysId" : null,
-            "targets" : [ {
-              "broker" : null,
-              "clientScript" : null,
-              "conditional" : null,
-              "declarativeAction" : null,
-              "event" : {
-                "apiName" : "x_759716_app_eng_0.NAV_ITEM_SELECTED_RELAY_d2f9c0a5d4d16510b96c4378ea5a3f78",
-                "payload" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : {
-                    "route" : "landing",
-                    "fields" : null,
-                    "params" : null,
-                    "redirect" : null,
-                    "passiveNavigation" : null,
-                    "title" : null,
-                    "multiInstField" : null,
-                    "targetRoute" : null,
-                    "external" : null
-                  }
-                },
-                "sysId" : "52f9c0a558d1651062a921321965fd6e"
-              },
-              "operation" : null,
-              "targetId" : "ckgjaaddddmeeaaaaaagddghheappajrhht",
-              "type" : "EVENT"
-            } ]
-          } ],
-          "slot" : null,
-          "definition" : {
-            "id" : "9c2e48402c6c25d281faeb20637f6106",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isHero" : false,
-          "extensionPoints" : [ ],
-          "isNonDestructive" : false,
-          "items" : [ ],
-          "styles" : {
-            "margin-left" : "var(--now-static-space--xl)",
-            "margin-bottom" : "var(--now-static-space--xl)"
-          }
-        }, {
-          "elementId" : "cat_item_wrapper",
-          "elementLabel" : "Catalog Item Wrapper",
-          "propertyValues" : {
-            "ariaRegionHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
-            },
-            "ariaRegionName" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "",
-                "comment" : ""
-              }
-            },
-            "includeAriaHeading" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "type" : {
-              "type" : "JSON_LITERAL",
-              "value" : "section"
-            },
-            "ariaRole" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : null,
-          "definition" : {
-            "id" : "d356d14b6e293a3020a244b63d278d8f",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : {
-            "composition" : [ {
-              "elementId" : "catalog_item_1",
-              "elementLabel" : "Catalog Item 1",
-              "propertyValues" : {
-                "showRequestForHeader" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "propagateNotifications" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "sysId" : {
-                  "type" : "CONTEXT_BINDING",
-                  "binding" : {
-                    "address" : [ "sysId" ],
-                    "category" : "props"
-                  }
-                },
-                "label" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "",
-                    "comment" : ""
-                  }
-                },
-                "headingOnlyVisibleToScreenReaders" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "interceptNotifications" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "hideOptionsLabel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "false"
-                },
-                "referrer" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "default"
-                },
-                "submitPosition" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "right"
-                },
-                "headerLevel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "1"
-                },
-                "engagementChannel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "default"
-                },
-                "requestedForId" : {
-                  "type" : "CONTEXT_BINDING",
-                  "binding" : {
-                    "address" : [ "user", "sys_id" ],
-                    "category" : "session"
-                  }
-                },
-                "bare" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "scrollable" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "y"
-                }
-              },
-              "eventMappings" : [ {
-                "eventMappingId" : "ckhaahnjleeaaaacchhddhhhiiaffggvoducc",
-                "isConfiguration" : false,
-                "offRowStorageId" : null,
-                "sourceEventApiName" : "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
-                "sourceEventCorrelationId" : null,
-                "sourceEventDefinition" : {
-                  "apiName" : "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
-                  "id" : null,
-                  "type" : "UXEVENT"
-                },
-                "sourceEventSysId" : null,
-                "targets" : [ {
-                  "broker" : null,
-                  "clientScript" : {
-                    "sysId" : "16f9c0a549d1651092949769a2893173"
-                  },
-                  "conditional" : null,
-                  "declarativeAction" : null,
-                  "event" : null,
-                  "operation" : null,
-                  "targetId" : "ckhaahnjlffaaaacciiddhhhiikjcvgcpz",
-                  "type" : "CLIENT_SCRIPT"
-                } ]
-              } ],
-              "slot" : null,
-              "definition" : {
-                "id" : "afeef20635001010f877265d86f080df",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : null,
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : ""
-              },
-              "isHero" : false,
-              "extensionPoints" : [ ],
-              "isNonDestructive" : false,
-              "items" : [ ],
-              "styles" : { }
-            } ],
-            "layout" : {
-              "default" : {
-                "children" : null,
-                "isInline" : null,
-                "items" : [{"rules":{},"styles":{"background-color":"rgb(var(--now-color--neutral-0))","border-radius":"2px","grid-area":"main","width":"100%"},"element_id":"catalog_item_1"}],
-                "root" : null,
-                "rules" : null,
-                "styles" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                "type" : "grid"
-              },
-              "version" : "3.0.0"
-            }
-          },
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isHero" : false,
-          "extensionPoints" : [ ],
-          "isNonDestructive" : false,
-          "items" : [ ],
-          "styles" : { }
-        }, {
-          "elementId" : "data_row_1",
-          "elementLabel" : "Data row 1",
-          "propertyValues" : {
-            "noDataMessage" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "No related items",
-                "comment" : ""
-              }
-            },
-            "data" : {
-              "type" : "DATA_OUTPUT_BINDING",
-              "binding" : {
-                "address" : [ "data_row__related_items_list_1", "output", "evambroker" ]
-              }
-            },
-            "daClientActionContract" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "cardHeightHorizontal" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "md",
-                "comment" : ""
-              }
-            },
-            "noBox" : {
-              "type" : "JSON_LITERAL",
-              "value" : true
-            },
-            "title" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "Related items",
-                "comment" : ""
-              }
-            },
-            "layout" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "horizontal",
-                "comment" : ""
-              }
-            },
-            "maxVisibleCardsHorizontal" : {
-              "type" : "JSON_LITERAL",
-              "value" : "4"
-            },
-            "dataBrokerIsLoading" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "titleStyleVariant" : {
-              "type" : "JSON_LITERAL",
-              "value" : "header-secondary"
-            },
-            "titleHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
-            },
-            "viewAllLinkLabel" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "",
-                "comment" : ""
-              }
-            },
-            "minCardPixelWidth" : {
-              "type" : "JSON_LITERAL",
-              "value" : 254
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : null,
-          "definition" : {
-            "id" : "fae56519b74e7995b69ae7cf66e280f9",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "DATA_OUTPUT_BINDING",
-            "binding" : {
-              "address" : [ "hide_data_row_1", "output" ]
-            }
-          },
-          "isHero" : false,
-          "extensionPoints" : [ ],
-          "isNonDestructive" : false,
-          "items" : [ ],
-          "styles" : {
-            "margin-top" : "48px"
-          }
-        }, {
-          "elementId" : "related_content_1",
-          "elementLabel" : "Related Content 1",
-          "propertyValues" : {
-            "noContentMessage" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "No related content",
-                "comment" : ""
-              }
-            },
-            "hideIfEmpty" : {
-              "type" : "JSON_LITERAL",
-              "value" : true
-            },
-            "maxItems" : {
-              "type" : "JSON_LITERAL",
-              "value" : 0
-            },
-            "heading" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "noContentSecondaryText" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "code" : null,
-                "message" : "",
-                "comment" : ""
-              }
-            },
-            "fieldDelimiter" : {
-              "type" : "JSON_LITERAL",
-              "value" : "•"
-            },
-            "items" : {
-              "type" : "DATA_OUTPUT_BINDING",
-              "binding" : {
-                "address" : [ "get_related_articles_1", "relatedArticles" ]
-              }
-            }
-          },
-          "eventMappings" : [ {
-            "eventMappingId" : "ckgtdcccceeddaaaaiuddghhiiuggxryggiil",
-            "isConfiguration" : false,
-            "offRowStorageId" : null,
-            "sourceEventApiName" : "sn_related_content.SN_RELATED_CONTENT#LINK_CLICKED",
-            "sourceEventCorrelationId" : null,
-            "sourceEventDefinition" : {
-              "apiName" : "sn_related_content.SN_RELATED_CONTENT#LINK_CLICKED",
-              "id" : null,
-              "type" : "UXEVENT"
-            },
-            "sourceEventSysId" : null,
-            "targets" : [ {
-              "broker" : null,
-              "clientScript" : null,
-              "conditional" : null,
-              "declarativeAction" : null,
-              "event" : {
-                "apiName" : "x_759716_app_eng_0.NAV_ITEM_SELECTED_RELAY_d2f9c0a5d4d16510b96c4378ea5a3f78",
-                "payload" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : {
-                    "route" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "article"
-                    },
-                    "fields" : {
-                      "type" : "MAP_CONTAINER",
-                      "container" : {
-                        "sysId" : {
-                          "type" : "EVENT_PAYLOAD_BINDING",
-                          "binding" : {
-                            "address" : [ "id" ]
-                          }
-                        }
-                      }
-                    },
-                    "params" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "redirect" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "passiveNavigation" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "title" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "multiInstField" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "targetRoute" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "external" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    }
-                  }
-                },
-                "sysId" : "52f9c0a558d1651062a921321965fd6e"
-              },
-              "operation" : null,
-              "targetId" : "ckgtdcccceeeeaaaaivddghhiiiieigbbdggjj",
-              "type" : "EVENT"
-            } ]
-          } ],
-          "slot" : null,
-          "definition" : {
-            "id" : "24f94bc9c371c54b1800625cebb5c9cf",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isHero" : false,
-          "extensionPoints" : [ ],
-          "isNonDestructive" : false,
-          "items" : [ ],
-          "styles" : {
-            "margin-top" : "48px"
-          }
-        } ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "isInline" : null,
-            "items" : [{"rules":{},"styles":{},"element_id":"breadcrumbs_1"},{"rules":{},"styles":{},"element_id":"cat_item_wrapper"},{"rules":{},"styles":{},"element_id":"data_row_1"},{"rules":{},"styles":{},"element_id":"related_content_1"}],
-            "root" : null,
-            "rules" : {},
-            "styles" : {"flex-direction":"column","display":"flex","align-items":"flex-start"},
-            "templateId" : null,
-            "type" : "flex"
-          },
-          "version" : "3.0.0"
-        }
-      },
+      "overrides" : null,
       "isHidden" : {
         "type" : "JSON_LITERAL",
-        "value" : null
+        "value" : ""
       },
       "isHero" : false,
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : {
-        "height" : "100%"
-      }
+      "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"rules":{},"styles":{"grid-area":"main"},"element_id":"container_1_Main"}],
+        "items" : [{"element_id":"catalog_item_1","styles":{"background-color":"rgb(var(--now-color--neutral-0))","border-radius":"2px","grid-area":"main","width":"100%","flex":"1 0 auto"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"margin":"var(--now-static-space--xxl) auto 4rem auto","grid-template-rows":"auto","grid-template-columns":"1fr minmax(0, 4fr) 1fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"0px 2rem","max-width":"90rem"},
@@ -862,7 +430,7 @@
     "items" : [{"rules":{},"styles":{"grid-area":"wrapper"},"element_id":"container_1"}],
     "root" : null,
     "rules" : null,
-    "styles" : {"background-color":"rgb(var(--now-avatar--background-color))","grid-template-rows":"minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"wrapper\"","grid-gap":"0px","height":"100%"},
+    "styles" : {"background-color":"rgb(var(--now-avatar--background-color))","grid-template-rows":"minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"wrapper\"","grid-gap":"0px","height":"","display":"grid"},
     "templateId" : "b09f467615f39010f87783c65626d825",
     "type" : "grid"
   },
@@ -896,22 +464,7 @@
   "selectable" : false,
   "disabled" : false
 } ]</props>
-        <required_translations>[ {
-  "message" : "No related content",
-  "comment" : ""
-}, {
-  "message" : "No related items",
-  "comment" : ""
-}, {
-  "message" : "Related items",
-  "comment" : ""
-}, {
-  "message" : "horizontal",
-  "comment" : ""
-}, {
-  "message" : "md",
-  "comment" : ""
-} ]</required_translations>
+        <required_translations>[ ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -943,14 +496,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-02-28 07:58:29</sys_created_on>
         <sys_id>d2f9c0a5d4d16510b96c4378ea5a3f78</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Catalog Item Page</sys_name>
         <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
         <sys_policy/>
         <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
         <sys_update_name>sys_ux_macroponent_d2f9c0a5d4d16510b96c4378ea5a3f78</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-28 08:16:20</sys_updated_on>
+        <sys_updated_on>2023-02-28 13:19:34</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d2f9c0a5d4d16510b96c4378ea5a3f78"/>
 </record_update>
