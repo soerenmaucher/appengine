@@ -95,7 +95,7 @@
         },
         "scrollable" : {
           "type" : "JSON_LITERAL",
-          "value" : "y"
+          "value" : "none"
         }
       },
       "eventMappings" : [ {
@@ -143,10 +143,10 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"catalog_item_1","styles":{"background-color":"rgb(var(--now-color--neutral-0))","border-radius":"2px","grid-area":"main","width":"100%","flex":"1 0 auto"}}],
+        "items" : [{"element_id":"catalog_item_1","styles":{"background-color":"rgb(var(--now-color--neutral-0))","border-radius":"2px","grid-area":"main","width":"100%","flex":"1 0 auto","height":"","margin":"var(--now-static-space--md)"}}],
         "root" : null,
         "rules" : null,
-        "styles" : {"margin":"var(--now-static-space--xxl) auto 4rem auto","grid-template-rows":"auto","grid-template-columns":"1fr minmax(0, 4fr) 1fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"0px 2rem","max-width":"90rem"},
+        "styles" : {"max-width":"90rem","margin":"","grid-template-rows":"auto","grid-template-columns":"1fr minmax(0, 4fr) 1fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"0px 2rem"},
         "templateId" : "f5ff467615f39010f87783c65626d829",
         "type" : "grid"
       },
@@ -161,7 +161,10 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : { }
+  "styles" : {
+    "max-width" : "90rem",
+    "height" : ""
+  }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -430,7 +433,7 @@
     "items" : [{"rules":{},"styles":{"grid-area":"wrapper"},"element_id":"container_1"}],
     "root" : null,
     "rules" : null,
-    "styles" : {"background-color":"rgb(var(--now-avatar--background-color))","grid-template-rows":"minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"wrapper\"","grid-gap":"0px","height":"","display":"grid"},
+    "styles" : {"background-color":"rgb(var(--now-avatar--background-color))","grid-template-rows":"minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"wrapper\"","grid-gap":"0px","height":"","display":"grid","justify-items":"center"},
     "templateId" : "b09f467615f39010f87783c65626d825",
     "type" : "grid"
   },
@@ -496,14 +499,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-02-28 07:58:29</sys_created_on>
         <sys_id>d2f9c0a5d4d16510b96c4378ea5a3f78</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Catalog Item Page</sys_name>
         <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
         <sys_policy/>
         <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
         <sys_update_name>sys_ux_macroponent_d2f9c0a5d4d16510b96c4378ea5a3f78</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-28 13:19:34</sys_updated_on>
+        <sys_updated_on>2023-02-28 13:32:32</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d2f9c0a5d4d16510b96c4378ea5a3f78"/>
 </record_update>
