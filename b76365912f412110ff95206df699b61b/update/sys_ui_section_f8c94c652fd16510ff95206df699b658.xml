@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f8c94c652fd16510ff95206df699b658" sys_domain="global" table="x_759716_app_eng_0_test_table" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_759716_app_eng_0_test_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-28 07:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8c94c652fd16510ff95206df699b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_759716_app_eng_0_test_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+            <sys_update_name>sys_ui_section_f8c94c652fd16510ff95206df699b658</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-28 07:57:24</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

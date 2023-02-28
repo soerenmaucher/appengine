@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">d6f9c0a54fd16510af36fafac568cb78</macroponent>
+        <name>close modal</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+     helpers.modal.close();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-28 07:58:22</sys_created_on>
+        <sys_id>def9c0a5f6d1651073cb00bf1e670f72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close modal</sys_name>
+        <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+        <sys_update_name>sys_ux_client_script_def9c0a5f6d1651073cb00bf1e670f72</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:58:22</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

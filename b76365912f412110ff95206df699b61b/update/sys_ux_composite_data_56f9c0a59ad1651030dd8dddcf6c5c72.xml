@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data">
+    <sys_ux_composite_data action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_filter_label/>
+        <name>Custom Portal Landing - Popular Articles</name>
+        <query_parameters/>
+        <required_roles/>
+        <sort_order/>
+        <sys_class_name>sys_ux_composite_data</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-28 07:58:25</sys_created_on>
+        <sys_id>56f9c0a59ad1651030dd8dddcf6c5c72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal Landing - Popular Articles</sys_name>
+        <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_56f9c0a59ad1651030dd8dddcf6c5c72</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:58:25</sys_updated_on>
+    </sys_ux_composite_data>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Test Record producer">eb788ce12fd16510ff95206df699b656</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 07:54:31</sys_created_on>
+        <sys_id>e619c8252fd16510ff95206df699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Record producer.Any User</sys_name>
+        <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e619c8252fd16510ff95206df699b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:54:31</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App engine test app">b76365912f412110ff95206df699b61b</application>
+        <file_path/>
+        <instance_id>33c67a82db571110f492c59705961917</instance_id>
+        <instance_name>dev144870</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_e619c8252fd16510ff95206df699b6f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Test Record producer">eb788ce12fd16510ff95206df699b656</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-28 07:54:31</sys_created_on><sys_id>e619c8252fd16510ff95206df699b6f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Record producer.Any User</sys_name><sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package><sys_policy/><sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_e619c8252fd16510ff95206df699b6f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-28 07:54:31</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1634998220</payload_hash>
+        <record_name>Test Record producer.Any User</record_name>
+        <reverted_from/>
+        <source>0ce030dd2f152510ff95206df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 07:54:32</sys_created_on>
+        <sys_id>b219c8252fd16510ff95206df699b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186970413240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:54:32</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>3a19c825c2d165108d8190f6be1ca9f3</update_guid>
+        <update_guid_history>3a19c825c2d165108d8190f6be1ca9f3:1634998220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test Record producer.Any User">36398c252fd16510ff95206df699b677</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 07:55:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>afeb24f9bdb1480f8a0091e787aff291</sys_id>
+        <sys_metadata>e619c8252fd16510ff95206df699b6f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Record producer.Any User</sys_name>
+        <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+        <sys_scope_delete display_value="">22efcbc2d79d413c92b0b2bc81935210</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e619c8252fd16510ff95206df699b6f0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_e619c8252fd16510ff95206df699b6f0">b219c8252fd16510ff95206df699b6f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:55:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

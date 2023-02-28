@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">5ef9c0a5b5d16510b52f8e6c971bae7c</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">16f9c0a5edd1651062348ed3fc363f6f</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-28 07:58:27</sys_created_on>
+        <sys_id>9ef9c0a5bdd16510d2e68cf32eac046b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_9ef9c0a5bdd16510d2e68cf32eac046b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:58:27</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>
