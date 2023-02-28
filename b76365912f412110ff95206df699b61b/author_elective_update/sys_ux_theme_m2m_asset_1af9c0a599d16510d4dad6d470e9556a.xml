@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset">
+    <sys_ux_theme_m2m_asset action="DELETE">
+        <asset display_value="now-logo-dark">d6f9c0a5cbd16510b9b919238bd2ed6a</asset>
+        <properties>{&#13;
+"position": "header_logo"&#13;
+}</properties>
+        <sys_class_name>sys_ux_theme_m2m_asset</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-28 07:58:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1af9c0a599d16510d4dad6d470e9556a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+        <sys_update_name>sys_ux_theme_m2m_asset_1af9c0a599d16510d4dad6d470e9556a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:58:26</sys_updated_on>
+        <theme display_value="Light Theme">9ef9c0a5a7d16510f94b790432282a7c</theme>
+    </sys_ux_theme_m2m_asset>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App engine test app">b76365912f412110ff95206df699b61b</application>
+        <file_path/>
+        <instance_id>33c67a82db571110f492c59705961917</instance_id>
+        <instance_name>dev144870</instance_name>
+        <name>sys_ux_theme_m2m_asset_1af9c0a599d16510d4dad6d470e9556a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset"><sys_ux_theme_m2m_asset action="INSERT_OR_UPDATE"><asset display_value="now-logo-dark">d6f9c0a5cbd16510b9b919238bd2ed6a</asset><properties>{&#13;
+"position": "header_logo"&#13;
+}</properties><sys_class_name>sys_ux_theme_m2m_asset</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-02-28 07:58:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1af9c0a599d16510d4dad6d470e9556a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package><sys_policy/><sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope><sys_update_name>sys_ux_theme_m2m_asset_1af9c0a599d16510d4dad6d470e9556a</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-28 07:58:26</sys_updated_on><theme display_value="Light Theme">9ef9c0a5a7d16510f94b790432282a7c</theme></sys_ux_theme_m2m_asset></record_update>]]></payload>
+        <payload_hash>-934634181</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>99b2d5102f112110ff95206df699b6aa</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-02-24 16:03:42</sys_created_on>
+        <sys_id>7bd9dd652f596510ff95206df699b624</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>186842a7b300000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Theme Assets</type>
+        <update_guid>3bd9dd65cf59651007eae189f9666924</update_guid>
+        <update_guid_history>3bd9dd65cf59651007eae189f9666924:-934634181</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 13:47:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme_m2m_asset">sys_ux_theme_m2m_asset</sys_db_object>
+        <sys_id>35b7ab2afb304434814f37854c4f1404</sys_id>
+        <sys_metadata>1af9c0a599d16510d4dad6d470e9556a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="App engine test app" source="x_759716_app_eng_0">b76365912f412110ff95206df699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="App engine test app">b76365912f412110ff95206df699b61b</sys_scope>
+        <sys_scope_delete display_value="">22efcbc2d79d413c92b0b2bc81935210</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_m2m_asset_1af9c0a599d16510d4dad6d470e9556a</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_m2m_asset_1af9c0a599d16510d4dad6d470e9556a">7bd9dd652f596510ff95206df699b624</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 13:47:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
